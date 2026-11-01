@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>【2026年最新】塾講師バイトおすすめ10選！自分に合った選び方と失敗しないチェック基準</title>
+<style>
+  :root {
+    --primary: #F26522;
+    --primary-light: #fff4ee;
+    --accent: #D4541A;
+    --accent-light: #fff0e8;
+    --green: #16a34a;
+    --green-light: #f0fdf4;
+    --red: #dc2626;
+    --gray-50: #f9fafb;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-400: #9ca3af;
+    --gray-600: #4b5563;
+    --gray-800: #1f2937;
+    --text: #111827;
+    --radius: 8px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text);
+    background: #fff;
+  }
+
+  /* ======= LAYOUT ======= */
+  .container { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+
+  header {
+    background: var(--primary);
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  header span { opacity: .7; font-weight: normal; margin-left: 12px; font-size: 13px; }
+
+  .breadcrumb {
+    font-size: 13px;
+    color: var(--gray-600);
+    padding: 12px 0;
+  }
+  .breadcrumb a { color: var(--primary); text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+
+  article { padding-bottom: 80px; }
+
+  /* ======= TITLE ======= */
+  .article-label {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: clamp(20px, 3.5vw, 28px);
+    font-weight: 900;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    color: var(--gray-800);
+  }
+  .meta {
+    font-size: 13px;
+    color: var(--gray-400);
+    margin-bottom: 24px;
+  }
+  .meta span { margin-right: 16px; }
+
+  /* ======= LEAD ======= */
+  .lead {
+    background: var(--gray-50);
+    border-left: 4px solid var(--primary);
+    padding: 20px 24px;
+    border-radius: 0 var(--radius) var(--radius) 0;
+    margin-bottom: 32px;
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+  /* ======= TOC ======= */
+  .toc {
+    background: var(--gray-50);
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    padding: 24px 28px;
+    margin-bottom: 48px;
+  }
+  .toc-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: var(--gray-800);
+  }
+  .toc ol { padding-left: 20px; }
+  .toc li { margin: 6px 0; font-size: 14px; }
+  .toc a { color: var(--primary); text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+
+  /* ======= HEADINGS ======= */
+  h2 {
+    font-size: 22px;
+    font-weight: 900;
+    margin: 56px 0 20px;
+    padding: 14px 20px;
+    background: var(--primary-light);
+    border-left: 5px solid var(--primary);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    color: var(--gray-800);
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 36px 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--gray-200);
+    color: var(--gray-800);
+  }
+
+  p { margin-bottom: 16px; }
+
+  /* ======= CHECK LIST ======= */
+  .check-list { list-style: none; margin: 16px 0 24px; padding: 0; }
+  .check-list li {
+    padding: 10px 14px 10px 44px;
+    position: relative;
+    margin-bottom: 8px;
+    background: var(--green-light);
+    border-radius: var(--radius);
+    font-size: 15px;
+  }
+  .check-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    color: var(--green);
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .cross-list { list-style: none; margin: 16px 0 24px; padding: 0; }
+  .cross-list li {
+    padding: 10px 14px 10px 44px;
+    position: relative;
+    margin-bottom: 8px;
+    background: #fef2f2;
+    border-radius: var(--radius);
+    font-size: 15px;
+  }
+  .cross-list li::before {
+    content: "✗";
+    position: absolute;
+    left: 14px;
+    top: 10px;
+    color: var(--red);
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  /* ======= WAGE BOX ======= */
+  .wage-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 20px 0 32px; }
+  .wage-card {
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius);
+    padding: 20px;
+    text-align: center;
+  }
+  .wage-card.featured { border-color: var(--primary); }
+  .wage-card .label { font-size: 13px; color: var(--gray-600); margin-bottom: 6px; }
+  .wage-card .amount {
+    font-size: 26px;
+    font-weight: 900;
+    color: var(--primary);
+    margin: 4px 0;
+  }
+  .wage-card .sub { font-size: 12px; color: var(--gray-400); }
+
+  /* ======= POINT BOX ======= */
+  .point-box {
+    border: 2px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    margin: 20px 0 28px;
+    background: var(--accent-light);
+  }
+  .point-box .point-title {
+    font-weight: bold;
+    font-size: 15px;
+    color: #92400e;
+    margin-bottom: 10px;
+  }
+  .point-box ul { padding-left: 20px; }
+  .point-box li { margin: 6px 0; font-size: 14px; }
+
+  /* ======= CHECK POINTS ======= */
+  .check-item {
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    margin-bottom: 16px;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.06);
+  }
+  .check-item .check-num {
+    display: inline-block;
+    background: var(--primary);
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px 10px;
+    border-radius: 20px;
+    margin-bottom: 8px;
+  }
+  .check-item .check-heading {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .check-item p { margin: 0; font-size: 14px; color: var(--gray-600); }
+
+  /* ======= TABLE ======= */
+  .table-wrap { overflow-x: auto; margin: 20px 0 32px; border-radius: var(--radius); border: 1px solid var(--gray-200); }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 640px; }
+  thead tr { background: var(--primary); color: #fff; }
+  thead th { padding: 12px 10px; text-align: center; font-weight: bold; white-space: nowrap; }
+  tbody tr:nth-child(even) { background: var(--gray-50); }
+  tbody tr:hover { background: var(--primary-light); }
+  tbody td { padding: 11px 10px; text-align: center; border-bottom: 1px solid var(--gray-200); vertical-align: middle; }
+  tbody td:first-child { font-weight: bold; text-align: left; padding-left: 14px; }
+  .badge-green { color: var(--green); font-weight: bold; }
+  .badge-red { color: var(--red); }
+  .badge-gray { color: var(--gray-400); }
+  .star { color: var(--accent); }
+
+  /* ======= TUTOR CARD ======= */
+  .tutor-grid { display: grid; gap: 16px; margin: 20px 0 32px; }
+  .tutor-card {
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.06);
+  }
+  .tutor-rank {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: #fff;
+    font-weight: 900;
+    font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .tutor-rank.gold { background: #b45309; }
+  .tutor-rank.silver { background: #6b7280; }
+  .tutor-rank.bronze { background: #92400e; }
+  .tutor-info h4 { font-size: 16px; font-weight: bold; margin-bottom: 6px; }
+  .tutor-info .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .tag {
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .tag-blue { background: var(--primary-light); color: var(--primary); }
+  .tag-green { background: var(--green-light); color: var(--green); }
+  .tag-amber { background: var(--accent-light); color: #92400e; }
+  .tutor-info .review {
+    font-size: 13px;
+    color: var(--gray-600);
+    background: var(--gray-50);
+    padding: 10px 12px;
+    border-radius: 6px;
+    border-left: 3px solid var(--gray-200);
+    font-style: italic;
+    margin-top: 8px;
+  }
+
+  /* ======= FAQ ======= */
+  .faq-item {
+    border: 1px solid var(--gray-200);
+    border-radius: var(--radius);
+    margin-bottom: 12px;
+    overflow: hidden;
+  }
+  .faq-q {
+    padding: 18px 20px;
+    font-weight: bold;
+    font-size: 15px;
+    background: var(--gray-50);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .faq-q::before { content: "Q"; color: var(--primary); font-weight: 900; margin-right: 10px; font-size: 17px; flex-shrink: 0; }
+  .faq-q::after { content: "▼"; font-size: 12px; color: var(--gray-400); flex-shrink: 0; margin-top: 3px; }
+  .faq-a {
+    padding: 16px 20px 16px 44px;
+    font-size: 14px;
+    color: var(--gray-600);
+    line-height: 1.8;
+    border-top: 1px solid var(--gray-200);
+    background: #fff;
+  }
+  .faq-a::before { content: "A"; display: inline; color: var(--accent); font-weight: 900; font-size: 16px; margin-right: 8px; }
+  .faq-link { margin-top: 8px; display: block; font-size: 13px; color: var(--primary); }
+
+  /* ======= CTA ======= */
+  .cta-section {
+    background: #1f2937;
+    border-radius: 12px;
+    padding: 40px 32px;
+    text-align: center;
+    margin: 48px 0 32px;
+    color: #fff;
+  }
+  .cta-section h2 {
+    color: #fff;
+    background: none;
+    border: none;
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 20px;
+  }
+  .cta-section p { color: rgba(255,255,255,.7); margin-bottom: 28px; font-size: 14px; }
+  .cta-btn {
+    display: inline-block;
+    padding: 16px 36px;
+    border-radius: 50px;
+    font-weight: 900;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 6px;
+    transition: transform .15s, box-shadow .15s;
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,.3); }
+  .btn-primary { background: var(--primary); color: #fff; border-color: var(--primary); }
+  .btn-secondary { background: transparent; color: #fff; border-color: rgba(255,255,255,.6); }
+  .btn-secondary:hover { background: rgba(255,255,255,.1); }
+  .cta-note { font-size: 12px; color: rgba(255,255,255,.4); margin-top: 16px; }
+
+  /* ======= SUMMARY BOX ======= */
+  .summary-box {
+    border: 2px solid var(--primary);
+    border-radius: var(--radius);
+    padding: 24px 28px;
+    margin-top: 40px;
+  }
+  .summary-box .summary-title {
+    font-weight: 900;
+    font-size: 16px;
+    color: var(--primary);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--gray-200);
+  }
+  .summary-box ol { padding-left: 20px; }
+  .summary-box li { margin: 8px 0; font-size: 14px; line-height: 1.7; }
+
+  @media (max-width: 600px) {
+    .wage-grid { grid-template-columns: 1fr 1fr; }
+    .tutor-card { flex-direction: column; }
+    .cta-btn { display: block; margin: 8px 0; }
+    h2 { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  塾講師バイト比較サイト（デモ）
+  <span>応募データ15万件</span>
+</header>
+
+<div class="container">
+  <nav class="breadcrumb">
+    <a href="#">トップ</a> &rsaquo; <a href="#">バイト探し</a> &rsaquo; 塾講師バイトおすすめ
+  </nav>
+
+  <article>
+
+    <!-- TITLE -->
+    <span class="article-label">2026年最新</span>
+    <h1 id="top">【2026年最新】塾講師バイトおすすめ10選！<br>自分に合った選び方と失敗しないチェック基準</h1>
+    <p class="meta">
+      <span>更新日：2026年10月</span>
+      <span>応募データ15万件をもとに作成</span>
+    </p>
+
+    <div class="lead">
+      塾講師バイト、気になってはいるけど「どこを選べばいいか」「自分に向いているのか」、なかなか判断がつかないですよね。<br><br>
+      この記事では、自分に合った塾かどうかの見極め方から、塾ごとの条件比較・よくある疑問まで、<strong>15万件の応募データと約6.8万件の口コミ</strong>をもとに独自調査しました。ぜひ、自分にぴったりの塾を見つけるヒントにしてみてください。
+    </div>
+
+    <!-- TOC -->
+    <nav class="toc">
+      <div class="toc-title">📋 この記事の目次</div>
+      <ol>
+        <li><a href="#sec1">そもそも塾講師バイトはおすすめ？他バイトとの違いと向き不向き</a></li>
+        <li><a href="#sec2">個別指導vs集団指導！1分でわかる適性チェックと時給相場</a></li>
+        <li><a href="#sec3">後悔しない！応募前に確認すべき3つのチェックポイント</a></li>
+        <li><a href="#sec4">【比較表】応募数・口コミで厳選！塾講師バイトおすすめ10選</a></li>
+        <li><a href="#sec5">初めての応募でよくある疑問Q&amp;A</a></li>
+        <li><a href="#sec6">まとめ</a></li>
+      </ol>
+    </nav>
+
+    <!-- ========== SEC 1 ========== -->
+    <h2 id="sec1">そもそも塾講師バイトはおすすめ？<br>他バイトとの違いと向き不向き</h2>
+
+    <p>飲食・コンビニ・カフェなど他のバイトと迷っている方も多いと思います。まず「なぜ塾講師バイトが選ばれているのか」をデータで見てみましょう。</p>
+
+    <h3>塾講師バイトを選んだ理由、1位は「受験経験を活かしたい」</h3>
+
+    <div style="background:var(--gray-50); border-radius:var(--radius); padding:24px 28px; margin:16px 0 28px;">
+      <p style="font-size:13px; color:var(--gray-600); margin-bottom:16px;">当サイト応募者アンケート（n=117）より ／ 単一選択</p>
+      <div style="display:flex; flex-direction:column; gap:10px;">
+        <div style="display:flex; align-items:center; gap:12px;">
+          <span style="font-size:13px; min-width:180px; color:var(--gray-800);">①受験経験を活かしたい</span>
+          <div style="flex:1; background:var(--gray-200); border-radius:4px; height:22px; position:relative;">
+            <div style="width:27.4%; background:var(--primary); border-radius:4px; height:100%;"></div>
+          </div>
+          <span style="font-size:14px; font-weight:bold; color:var(--primary); min-width:44px;">27.4%</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <span style="font-size:13px; min-width:180px; color:var(--gray-800);">②高時給だったから</span>
+          <div style="flex:1; background:var(--gray-200); border-radius:4px; height:22px; position:relative;">
+            <div style="width:21.4%; background:var(--primary); border-radius:4px; height:100%; opacity:.75;"></div>
+          </div>
+          <span style="font-size:14px; font-weight:bold; color:var(--primary); min-width:44px;">21.4%</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <span style="font-size:13px; min-width:180px; color:var(--gray-800);">③得意なことを活かしたい</span>
+          <div style="flex:1; background:var(--gray-200); border-radius:4px; height:22px; position:relative;">
+            <div style="width:15.4%; background:var(--primary); border-radius:4px; height:100%; opacity:.6;"></div>
+          </div>
+          <span style="font-size:14px; font-weight:bold; color:var(--primary); min-width:44px;">15.4%</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <span style="font-size:13px; min-width:180px; color:var(--gray-800);">④教職・教員志望のため</span>
+          <div style="flex:1; background:var(--gray-200); border-radius:4px; height:22px; position:relative;">
+            <div style="width:12.8%; background:var(--primary); border-radius:4px; height:100%; opacity:.5;"></div>
+          </div>
+          <span style="font-size:14px; font-weight:bold; color:var(--primary); min-width:44px;">12.8%</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <span style="font-size:13px; min-width:180px; color:var(--gray-800);">⑤コスパよく働きたい</span>
+          <div style="flex:1; background:var(--gray-200); border-radius:4px; height:22px; position:relative;">
+            <div style="width:9.4%; background:var(--primary); border-radius:4px; height:100%; opacity:.4;"></div>
+          </div>
+          <span style="font-size:14px; font-weight:bold; color:var(--primary); min-width:44px;">9.4%</span>
+        </div>
+      </div>
+    </div>
+
+    <p>「せっかく受験を乗り越えたなら、その経験を活かして働きたい」——これが塾講師バイトを選ぶ最大の動機です。飲食やコンビニにはない<strong>「自分の経験・得意が直接活きる」</strong>点が、塾講師バイトの大きな魅力といえます。</p>
+
+    <h3>塾講師バイトならではの2つの大きなメリット</h3>
+
+    <div class="wage-grid">
+      <div class="wage-card featured">
+        <div class="label">個別指導の時給相場</div>
+        <div class="amount">1,500〜2,500円</div>
+        <div class="sub">（飲食の一般的な相場より高め）</div>
+      </div>
+      <div class="wage-card">
+        <div class="label">集団指導の時給相場</div>
+        <div class="amount">2,000〜5,000円</div>
+        <div class="sub">（授業コマ給換算）</div>
+      </div>
+    </div>
+
+    <ul class="check-list">
+      <li><strong>実質的な時給の高さ</strong>：飲食バイト相場1,300円〜に対し、個別指導1,500〜2,500円、集団2,000〜5,000円と大幅に高い</li>
+      <li><strong>就活のガクチカに直結</strong>：プレゼン・指導経験は面接で高く評価される。「人に教えた経験」は汎用性が高い</li>
+    </ul>
+
+    <h3>「きつい・やめとけ」と言われる理由と向いていない人</h3>
+
+    <p style="font-size:14px; color:var(--gray-600);">※「準備時間が無給で実質時給が下がった」「シフト融通が利かなかった」といった声が寄せられることもあります。塾選びの際は、後述のチェックポイントで事前に確認しておくことをおすすめします。</p>
+
+    <ul class="cross-list">
+      <li>「楽して稼ぎたい」「準備はしたくない」という人には不向き</li>
+      <li>人に教えることへの関心がない人は長続きしにくい</li>
+      <li>スケジュールが毎週変わる人（バンドや部活など）には難しい面も</li>
+    </ul>
+
+    <p>→ 詳しくは「<a href="#">塾講師バイトをおすすめしない理由と本当のメリット・体験談</a>」へ</p>
+
+    <!-- ========== SEC 2 ========== -->
+    <h2 id="sec2">個別指導vs集団指導！<br>1分でわかる適性チェックと時給相場</h2>
+
+    <p>個別指導と集団指導、どちらを選べばいいか迷いますよね。初めてだとイメージしにくい部分も多いと思うので、まずは2つの形態の違いを押さえておきましょう。</p>
+
+    <h3>未経験・じっくり教えたいなら「個別指導」</h3>
+
+    <ul class="check-list">
+      <li>生徒1〜2名に寄り添った指導スタイル</li>
+      <li>コマ給換算の時給相場：1,400〜1,800円</li>
+      <li>未経験・大学1年生から始めやすい<span style="font-size:12px; color:var(--gray-400); margin-left:6px;">※当サイト応募者の72%が大学1年生（自社アンケート）</span></li>
+      <li>中学の定期テストレベルが教えられれば採用される塾が多い</li>
+    </ul>
+
+    <h3>高時給・人前で話す度胸があるなら「集団指導」</h3>
+
+    <ul class="check-list">
+      <li>10〜30名を相手にクラス授業を行う</li>
+      <li>時給相場：2,000〜3,500円以上</li>
+      <li>受験経験を活かしてガッツリ稼ぎたい人に向いている</li>
+    </ul>
+
+    <p>→ 詳しくは「<a href="#">個別指導と集団指導の違いを徹底比較！時給と適性診断</a>」へ</p>
+
+    <!-- ========== SEC 3 ========== -->
+    <h2 id="sec3">後悔しない！応募前に確認すべき<br>3つのチェックポイント</h2>
+
+    <p>口コミ約6.8万件より、<strong>「長く続けてよかった」と感じる決め手は「教室の仕組み」と「給料」</strong>。応募前にこの3点を押さえておきましょう。</p>
+
+    <div class="check-item">
+      <div class="check-num">チェック 1</div>
+      <div class="check-heading">「コマ外手当（準備時間給）」の明記があるか</div>
+      <p>授業前の予習・授業後の報告書作成などの「準備時間」に給与（事務給など）が出るか必ず確認。<strong>これが無いと実質時給が大幅に下がる最大の原因</strong>になります。求人票の「業務内容・給与詳細」欄で確認しましょう。</p>
+    </div>
+
+    <div class="check-item">
+      <div class="check-num">チェック 2</div>
+      <div class="check-heading">研修期間の給与（研修時給）は適切か</div>
+      <p>未経験でも、研修期間中にきちんと<strong>有給でサポート</strong>してくれるかを確認。「研修は無給」という塾は要注意です。面接時に「研修期間中の時給はいくらですか？」と直接聞きましょう。</p>
+    </div>
+
+    <div class="check-item">
+      <div class="check-num">チェック 3</div>
+      <div class="check-heading">テスト期間や帰省時の「代行体制・シフト融通」</div>
+      <p>大学生にとって死活問題のテスト休み。<strong>休む際に「自分で代わりの講師を探す必要があるか」</strong>を面接で必ず確認しましょう。代行体制が整っている塾を選ぶと安心です。</p>
+    </div>
+
+    <p>→ 詳しくは「<a href="#">応募前に知っておきたい！塾バイトの労働条件チェックリスト</a>」へ</p>
+
+    <!-- ========== SEC 4 ========== -->
+    <h2 id="sec4">【比較表】応募数・口コミで厳選！<br>塾講師バイトおすすめ10選</h2>
+
+    <p>当サイトの応募データ15万件をもとに、各塾の特徴をまとめました。</p>
+
+    <h3>【一目でわかる】おすすめ10選の条件比較表</h3>
+
+    <p style="font-size:13px; color:var(--gray-600); margin-bottom:12px;">※応募数は当サイトの実績データ（n=150,000件）をもとにランキングを作成。時給・準備時間給・シフト・服装は各社公式求人情報をもとに編集部が調査。</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>順位</th>
+            <th>塾名</th>
+            <th>形態</th>
+            <th>応募数（当サイト実績）</th>
+            <th>時給目安</th>
+            <th>準備時間給</th>
+            <th>週1〜OK</th>
+            <th>服装自由</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="font-weight:bold; color:var(--primary);">1位</td>
+            <td>スクールIE</td>
+            <td>個別</td>
+            <td class="badge-green">9,162件</td>
+            <td>1,500〜2,000円</td>
+            <td class="badge-green">あり</td>
+            <td class="badge-green">◎</td>
+            <td class="badge-green">◎</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold; color:var(--primary);">2位</td>
+            <td>東京個別指導学院</td>
+            <td>個別</td>
+            <td class="badge-green">6,956件</td>
+            <td>1,600〜2,200円</td>
+            <td class="badge-green">あり</td>
+            <td class="badge-green">◎</td>
+            <td>○</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold; color:var(--primary);">3位</td>
+            <td>TOMAS</td>
+            <td>完全1対1</td>
+            <td>6,862件</td>
+            <td>1,800〜3,000円</td>
+            <td class="badge-green">あり</td>
+            <td>△</td>
+            <td>△</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold; color:var(--primary);">4位</td>
+            <td>明光義塾</td>
+            <td>個別</td>
+            <td>6,608件</td>
+            <td>1,400〜1,900円</td>
+            <td>○</td>
+            <td class="badge-green">◎</td>
+            <td>○</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold; color:var(--primary);">5位</td>
+            <td>武田塾</td>
+            <td>個別（自立学習型）</td>
+            <td>5,346件</td>
+            <td>1,500〜2,000円</td>
+            <td class="badge-green">あり</td>
+            <td>○</td>
+            <td>○</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold; color:var(--primary);">6位</td>
+            <td>個別指導キャンパス</td>
+            <td>個別</td>
+            <td>5,149件</td>
+            <td>1,400〜1,800円</td>
+            <td>○</td>
+            <td class="badge-green">◎</td>
+            <td class="badge-green">◎</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold; color:var(--primary);">7位</td>
+            <td>ITTO個別指導学院</td>
+            <td>個別</td>
+            <td>4,808件</td>
+            <td>1,400〜1,900円</td>
+            <td>○</td>
+            <td class="badge-green">◎</td>
+            <td>○</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold; color:var(--primary);">8位</td>
+            <td>個別指導学院フリーステップ</td>
+            <td>個別</td>
+            <td>4,535件</td>
+            <td>1,500〜2,000円</td>
+            <td>○</td>
+            <td class="badge-green">◎</td>
+            <td>○</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold; color:var(--primary);">9位</td>
+            <td>早稲田アカデミー</td>
+            <td>集団</td>
+            <td>3,921件</td>
+            <td>2,000〜4,000円</td>
+            <td>△</td>
+            <td class="badge-red">×</td>
+            <td>△</td>
+          </tr>
+          <tr>
+            <td style="font-weight:bold; color:var(--primary);">10位</td>
+            <td>栄光の個別ビザビ</td>
+            <td>個別</td>
+            <td>2,917件</td>
+            <td>1,500〜2,100円</td>
+            <td class="badge-green">あり</td>
+            <td class="badge-green">◎</td>
+            <td>○</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>【未経験でも安心】研修・サポートが手厚い個別指導塾3選</h3>
+
+    <p style="font-size:13px; color:var(--gray-600); margin-bottom:4px;">以下の紹介文・口コミは当サイトに寄せられた約6.8万件の口コミをもとに編集部が作成しています。</p>
+
+    <div class="tutor-grid">
+      <div class="tutor-card">
+        <div class="tutor-rank gold">1</div>
+        <div class="tutor-info">
+          <h4>スクールIE（やる気スイッチグループ）</h4>
+          <div class="tags">
+            <span class="tag tag-blue">個別指導</span>
+            <span class="tag tag-green">応募数1位</span>
+            <span class="tag tag-amber">応募数1位</span>
+          </div>
+          <p>全国最大規模の個別指導塾。未経験者向けの研修体制が充実しており、大学1年生の採用も積極的。準備時間給あり。</p>
+          <div class="review">「研修が丁寧で、最初は不安でしたがすぐ慣れました。報告書の書き方も教えてもらえます」（大学2年・文学部）</div>
+        </div>
+      </div>
+      <div class="tutor-card">
+        <div class="tutor-rank silver">2</div>
+        <div class="tutor-info">
+          <h4>東京個別指導学院</h4>
+          <div class="tags">
+            <span class="tag tag-blue">個別指導</span>
+            <span class="tag tag-green">応募数2位</span>
+            <span class="tag tag-amber">週1〜OK</span>
+          </div>
+          <p>当サイト応募数2位の人気塾。講師同士のコミュニティが活発で、授業の悩みを相談しやすい環境。シフトの融通も◎。</p>
+          <div class="review">「週2コマから始められて、サークルとの両立も楽です。生徒が成長した時の喜びがやめられない理由」（大学3年・理工学部）</div>
+        </div>
+      </div>
+      <div class="tutor-card">
+        <div class="tutor-rank bronze">3</div>
+        <div class="tutor-info">
+          <h4>明光義塾</h4>
+          <div class="tags">
+            <span class="tag tag-blue">個別指導</span>
+            <span class="tag tag-green">全国展開</span>
+            <span class="tag tag-amber">週1〜OK</span>
+          </div>
+          <p>全国に展開する老舗チェーン。地元の校舎に通いやすく、教室長との距離が近いアットホームな雰囲気の校舎が多い。</p>
+          <div class="review">「大学近くの校舎で働けるので通勤時間ゼロ。教室長がとても親切で相談しやすいです」（大学1年・経済学部）</div>
+        </div>
+      </div>
+    </div>
+
+    <h3>【学業・サークル両立】シフトの融通が利く個別指導塾2選</h3>
+
+    <div class="tutor-grid">
+      <div class="tutor-card">
+        <div class="tutor-rank" style="background:#7c3aed">1</div>
+        <div class="tutor-info">
+          <h4>個別指導キャンパス</h4>
+          <div class="tags">
+            <span class="tag tag-blue">個別指導</span>
+            <span class="tag tag-green">週1日〜OK</span>
+            <span class="tag tag-amber">初心者向け</span>
+          </div>
+          <p>カリキュラムが整っているため、初めてでも教える内容に迷わない。週1日・1コマから勤務可能。</p>
+        </div>
+      </div>
+      <div class="tutor-card">
+        <div class="tutor-rank" style="background:#0891b2">2</div>
+        <div class="tutor-info">
+          <h4>武田塾</h4>
+          <div class="tags">
+            <span class="tag tag-blue">自立学習型</span>
+            <span class="tag tag-green">準備負担少</span>
+          </div>
+          <p>授業ではなく「勉強の管理・確認」が中心のため、準備負担が少ない。自分のペースで働きたい人向け。</p>
+        </div>
+      </div>
+    </div>
+
+    <h3>【高時給でガッツリ稼ぐ】集団指導・1対1の本格塾3選</h3>
+
+    <div class="tutor-grid">
+      <div class="tutor-card">
+        <div class="tutor-rank gold">1</div>
+        <div class="tutor-info">
+          <h4>TOMAS（トーマス）</h4>
+          <div class="tags">
+            <span class="tag tag-blue">完全1対1</span>
+            <span class="tag tag-green">応募数3位</span>
+            <span class="tag tag-amber">時給1,800〜3,000円</span>
+          </div>
+          <p>完全1対1で最高水準の時給。難関大学の合格実績があり、指導力を高めたい人に最適。口コミ評価もトップクラス。</p>
+        </div>
+      </div>
+      <div class="tutor-card">
+        <div class="tutor-rank silver">2</div>
+        <div class="tutor-info">
+          <h4>早稲田アカデミー</h4>
+          <div class="tags">
+            <span class="tag tag-blue">集団指導</span>
+            <span class="tag tag-blue">集団指導</span>
+            <span class="tag tag-amber">時給2,000〜4,000円</span>
+          </div>
+          <p>難関受験を目指す生徒向け集団授業。高時給だが準備・授業の質へのプレッシャーも高め。受験経験者に向いている。</p>
+        </div>
+      </div>
+      <div class="tutor-card">
+        <div class="tutor-rank bronze">3</div>
+        <div class="tutor-info">
+          <h4>臨海セミナー</h4>
+          <div class="tags">
+            <span class="tag tag-blue">集団指導</span>
+            <span class="tag tag-amber">時給2,000〜3,500円</span>
+          </div>
+          <p>首都圏を中心に展開する集団指導塾。地域密着型で校舎数が多く、自宅近くで働きやすい。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== SEC 5 ========== -->
+    <h2 id="sec5">初めての応募でよくある疑問Q&amp;A<br>（採用難易度・髪色・服装）</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">学歴フィルターや大学のレベルは関係ある？</div>
+      <div class="faq-a">
+        塾のターゲット（難関受験向けか補習向けか）によりますが、<strong>大半の個別指導塾は「中学生の定期テストレベル」が教えられれば大学名だけで不採用になることはほとんどありません。</strong>難関大学に特化した集団指導塾（開成・灘クラス対応など）は除きます。
+        <a class="faq-link" href="#">→「塾講師バイトに学歴は関係ある？採用される大学・難易度を解説」</a>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">髪色（茶髪）や服装（私服）のルールは厳しい？</div>
+      <div class="faq-a">
+        以前はスーツ・黒髪必須が多かったですが、<strong>現在は「オフィスカジュアル・清潔感のある茶髪OK」の塾が急速に増えています。</strong>白衣貸与制度を設けている塾もあり、服装を問わない塾も。比較表の「服装自由◎」の塾を選ぶと安心です。
+        <a class="faq-link" href="#">→「私服・茶髪OKな塾バイト特集」</a>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-q">面接や筆記試験では何を聞かれる・出題される？</div>
+      <div class="faq-a">
+        <strong>面接</strong>ではシフト希望・教えたい科目・志望動機が中心です。「なぜ塾講師？」という質問は必ず準備しておきましょう。<strong>筆記試験</strong>は中学〜高校基礎レベルの英数が一般的。難関塾を除けばセンター試験レベル以下がほとんどです。<br>
+        なお、当サイトのアンケートで「応募前に情報が入手しにくかった」と答えた項目の上位は<strong>「選考・応募プロセス（19.7%）」「シフト（15.4%）」「給与（14.5%）」</strong>でした。面接でこれらを直接確認しておくと安心です。
+        <a class="faq-link" href="#">→「塾講師バイトの面接・筆記試験対策まとめ」</a>
+      </div>
+    </div>
+
+    <!-- ========== CTA ========== -->
+    <div class="cta-section">
+      <h2>まずは最寄り駅の塾求人を探してみよう</h2>
+      <p>同じブランドでも教室長・校舎の雰囲気で職場環境は大きく変わります。<br>口コミ付きの求人を校舎単位で比較して、失敗のない一歩を。</p>
+      <a class="cta-btn btn-primary" href="#">最寄り駅・沿線から求人を検索する</a>
+      <a class="cta-btn btn-secondary" href="#">会員登録して非公開求人・オファーを受け取る</a>
+    </div>
+
+    <!-- ========== SEC 6 ========== -->
+    <h2 id="sec6">まとめ：まずは自宅・大学近くの<br>通いやすい校舎を探してみよう</h2>
+
+    <p>応募者アンケートで<strong>「塾を選んだ決め手の1位は通いやすさ（47%）」</strong>というデータが出ています。同じブランドでも校舎・教室長によって雰囲気は大きく異なるため、まずは最寄り駅の求人を検索し、教室ごとの口コミを確認することが失敗しない第一歩です。</p>
+
+    <div class="summary-box">
+      <div class="summary-title">この記事のまとめ</div>
+      <ol>
+        <li>塾講師バイトは時給が高くガクチカになる一方、準備時間の扱いで実質時給が下がるリスクがある</li>
+        <li>当サイト応募者の72%が大学1年生。未経験なら<strong>個別指導</strong>から始めるのが王道</li>
+        <li>「長く続けてよかった」決め手は研修よりも<strong>「教室の仕組み」と「給料」</strong>。入社前の口コミ確認が重要</li>
+        <li>応募前に「準備時間給・シフト代行体制・給与の詳細」の3点を必ず確認する</li>
+        <li>塾選びの決め手1位は「通いやすさ（47%）」。まず最寄り駅で検索して通いやすい校舎を探すのが第一歩</li>
+      </ol>
+    </div>
+
+  </article>
+</div>
+
+</body>
+</html>
